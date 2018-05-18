@@ -1,4 +1,4 @@
-package social.cut
+package social.cut.examples
 
 import org.graalvm.polyglot._
 
