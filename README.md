@@ -1,8 +1,8 @@
 # FastR/Scala InterOp in GraalVM
 
-1. Install GraalVM
-2. Setup `JAVA_HOME`
-3. Install FastR with GraalVM Updater using the following command: `gu -c install org.graalvm.r`
-4. Run examples using `sbt run`.
+1. First install GraalVM
+2. Then set up the `JAVA_HOME`
+3. Use GraalVM Updater to install FastR: `gu -c install org.graalvm.r`
+4. And finally run Scala examples using `sbt run`.
 
-- Plot demo depends on `ggplot2` package in FastR to run. Since it takes time to compile dependencies and install `ggplot2`, make sure you install it before running the demo, with `install.packages("ggplot2")` command in FastR. 
+**Note:** The demo uses `ggplot2` package for plotting; in FastR, run `install.packages("ggplot2")` to install it. Compiling all the dependencies takes a bit of time, so feel free to have your coffee while it's getting installed.
